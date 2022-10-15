@@ -65,3 +65,44 @@ a:link {
     align-items: center;
     justify-content: center;
 }
+
+.secondsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondsection p {
+    font-size: 36px;
+    font-weight: bolder;
+    /*color: #1F2937;*/
+}
+
+.displays {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.firstdisplay,
+.seconddisplay,
+.thirddisplay,
+.fourthdisplay {
+    width: 150px;
+}
+
+.box1,
+.box2,
+.box3, 
+.box4 {
+    width: 140px;
+    height: 140px;
+    color: aqua;
+    border: 2px solid #3882F6;
+    border-radius: 6px;
+}
+
+.caption {
+    text-align: center;
+}
