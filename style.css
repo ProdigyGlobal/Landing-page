@@ -8,6 +8,7 @@ body {
     background-color: #1F2937   ;
     height: 520px;
     gap: 90px;
+    margin: -8px;
 }
 
 .header {
@@ -126,6 +127,8 @@ a:link {
 .thirdsection {
     display: flex;
     flex-direction: column;
+    background-color: #E5E7EB;
+    margin: -8px;
 }
 
 .quote {
@@ -142,4 +145,44 @@ a:link {
 .author p {
     padding-left: 600px;
     margin-top: -30px;
+}
+
+.fourthsection {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: #1253E1;
+    border-radius: 8px;
+    margin-left: 250px;
+    width: 800px;
+    height: 50px;
+    padding: 35px;
+    gap: 100px;
+    line-height:0px;
+}
+
+.fourthsection div :first-child{
+    font-size: 18px;
+    font-weight: 20;
+}
+
+.fourthsection button {
+    height: 40px;
+    width:150px;
+    margin-top: 10px;
+    border-radius: 8px ;
+    border: none solid white;
+    background-color: #1253E1;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(25, 33, 44);
+    margin-top: 100px;
+    margin-bottom: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
 }
